@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#b9f6ca"
+    android:orientation="vertical"
+    tools:context="com.example.android.tourguideapp.MainActivity">
+
+    <TextView
+        android:id="@+id/delhi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#76ff03"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="30dp"
+        android:text="@string/on_d_way_to_delhi"
+        android:textAlignment="center"
+        android:textColor="@android:color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/monument"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#ff1744"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="20dp"
+        android:text="@string/Monuments"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/parks"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#2196f3"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="20dp"
+        android:text="@string/Parks"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/religious"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#ffeb3b"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="20dp"
+        android:text="@string/Religious"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/restaurants"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="#e91e63"
+        android:fontFamily="sans-serif-smallcaps"
+        android:padding="20dp"
+        android:text="@string/Restaurants"
+        android:textColor="@android:color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
